@@ -1,7 +1,7 @@
 <script lang="ts">
   import { onMount, tick } from 'svelte';
-  import SortTh from './SortTh.svelte';
-  import FolderTreeNode from './FolderTreeNode.svelte';
+  import SortTh from './components/SortTh.svelte';
+  import FolderTreeNode from './components/FolderTreeNode.svelte';
   import {
     type DevReport, type ProdReport, type SortState, type ToastState, type ConfirmState,
     type LoadingState, type FolderNode, type FolderTreeRow,

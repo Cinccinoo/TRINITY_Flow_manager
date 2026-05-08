@@ -1,5 +1,5 @@
 <script lang="ts">
-  import type { FolderNode } from './FlowManager';
+  import type { FolderNode } from '../FlowManager';
 
   export let node: FolderNode;
   export let depth: number = 0;

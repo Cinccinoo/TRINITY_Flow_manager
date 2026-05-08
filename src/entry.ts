@@ -3,7 +3,7 @@
  * - window.Matrix가 이미 존재하면 Mock 없이 실제 API 사용
  * - 지정된 target 요소에 FlowManager를 마운트
  */
-import FlowManager from '../TRINITY_SYSTEMFLOW_MGT_SVELTE/FlowManager.svelte';
+import FlowManager from './app/FlowManager.svelte';
 
 export function mount(targetEl: HTMLElement) {
   return new FlowManager({ target: targetEl });
